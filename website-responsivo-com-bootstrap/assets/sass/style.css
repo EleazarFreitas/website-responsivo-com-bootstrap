@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.btn:focus,
+.btn:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  padding-top: 100px;
+}
+
+.logo {
+  width: 1.5rem;
+}
+
+.coracao {
+  color: #ffc107;
+}
+
+.img-fluid, .card {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+.card-img-top {
+  width: 70px;
+}
+
+.card {
+  position: relative;
+  overflow: hidden;
+}
+
+.triangulo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 2.5rem solid;
+  border-color: #ffc107 transparent transparent;
+  transform: translateX(50%);
+}
+
+.footer-amarelo {
+  background-color: #ffc107;
+}
+
+.seta {
+  width: 32px;
+}
+
+.final {
+  position: relative;
+}/*# sourceMappingURL=style.css.map */

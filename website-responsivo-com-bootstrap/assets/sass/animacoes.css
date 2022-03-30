@@ -1,0 +1,162 @@
+.navbar-toggler {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  transition: 0.5s ease-in-out;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+  border: 0;
+}
+
+.navbar-toggler span {
+  margin: 0;
+  padding: 0;
+}
+
+.toggler-icon {
+  display: block;
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  background-color: #ffc107;
+  border-radius: 1px;
+  left: 0;
+  transform: rotate(0deg);
+  transition: 0.25s ease-in-out;
+}
+
+.middle-bar {
+  margin-top: 0px;
+}
+
+.navbar-toggler .top-bar {
+  margin-top: 0px;
+  transform: rotate(135deg);
+}
+
+.navbar-toggler .middle-bar {
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+.navbar-toggler .bottom-bar {
+  margin-top: 0px;
+  transform: rotate(-135deg);
+}
+
+.navbar-toggler.collapsed .top-bar {
+  margin-top: -20px;
+  transform: rotate(0deg);
+}
+
+.navbar-toggler.collapsed .middle-bar {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+  margin-top: 20px;
+  transform: rotate(0deg);
+}
+
+.coracao:hover {
+  -webkit-animation: heart 1.3s linear infinite;
+          animation: heart 1.3s linear infinite;
+  transition: all ease;
+}
+
+@-webkit-keyframes heart {
+  0% {
+    transform: scale(1.3);
+  }
+}
+
+@keyframes heart {
+  0% {
+    transform: scale(1.3);
+  }
+}
+.nav-link:hover::before {
+  content: "";
+  width: 20px;
+  height: 3px;
+  background-color: #ffc107;
+  position: absolute;
+  top: 70%;
+  border-radius: 10px;
+}
+
+.st:hover {
+  transform: translateY(-5px);
+  transition: 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  transition: 0.3s;
+}
+
+.coracao-footer:hover {
+  -webkit-animation: heart 1.3s linear infinite;
+          animation: heart 1.3s linear infinite;
+  transition: all ease;
+}
+
+.seta {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-decoration: none;
+  -webkit-animation-name: seta;
+          animation-name: seta;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+
+@-webkit-keyframes seta {
+  0% {
+    top: -75px;
+  }
+  100% {
+    top: -65px;
+  }
+}
+
+@keyframes seta {
+  0% {
+    top: -75px;
+  }
+  100% {
+    top: -65px;
+  }
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 5px;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.25);
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: #ffc107;
+  border: 1px solid white;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #ffca2c;
+}/*# sourceMappingURL=animacoes.css.map */

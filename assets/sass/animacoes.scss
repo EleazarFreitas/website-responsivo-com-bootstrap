@@ -76,6 +76,11 @@
   top: 70%;
   border-radius: 10px;
 }
+@media only screen and (max-width: 991px) {
+    .nav-link:hover::before {
+        background-color: transparent;
+    }
+}
 // hero - shop titans
 .st:hover{
     transform: translateY(-5px);

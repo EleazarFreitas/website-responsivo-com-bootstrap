@@ -91,6 +91,11 @@
   border-radius: 10px;
 }
 
+@media only screen and (max-width: 991px) {
+  .nav-link:hover::before {
+    background-color: transparent;
+  }
+}
 .st:hover {
   transform: translateY(-5px);
   transition: 0.3s ease-in-out;
